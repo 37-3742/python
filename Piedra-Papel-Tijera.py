@@ -2,7 +2,7 @@
 import random
 
 def jugar():
-    usuario = input("Escoge una opción: piedra,papel, tijera: ")
+    usuario = input("Escoge una opción( piedra,papel, tijera): ")
     computadora = random.choice(['piedra', 'papel', 'tijera'])
     print("La computadora eligio: ", computadora)
 
